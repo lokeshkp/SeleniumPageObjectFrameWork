@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suites" parallel="false">
+  
+    <suite-files>
+
+	<suite-file path="./TelematicsReportsVerificationTestSuite.xml"></suite-file>
+	<suite-file path="./AccountRemindersVerificationTestSuite.xml"></suite-file>
+	<suite-file path="./AssetDetailsVerificationTestSuite.xml"></suite-file>
+	<suite-file path="./AssetFilterTestSuite.xml"></suite-file>
+	<suite-file path="./AssetGroupsVerificationTestSuite.xml"></suite-file>
+	<suite-file path="./HomepageMenusAndSubmenusVerificationTestsuite.xml"></suite-file>
+	<suite-file path="./JourneyPanelTest.xml"></suite-file>
+	<suite-file path="./NearestAssetsVerificationTestSuite.xml"></suite-file> 
+	<suite-file path="./POIsVerificationTestSuite.xml"></suite-file>
+	<suite-file path="./WebTesting.xml"></suite-file>
+         
+    </suite-files>
+    
+</suite> <!-- Suite -->

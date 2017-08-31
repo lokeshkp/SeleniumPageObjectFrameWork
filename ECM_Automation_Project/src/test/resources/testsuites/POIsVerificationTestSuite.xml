@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="POIsVerificationTestSuite">
+
+  <test name="POIsVerificationTest">
+		 <classes>
+		    <class name="com.telematics.tests.POIsVerificationTest">
+		                <methods>
+	  	                    	<include name="launchBrowserAndLoginToTelematics" /> 
+	  	                    	<include name="verifyListOfPOIsGroupsAndPOIsNameOnPOIPanel" /> 
+	  	                    	<include name="verifyInvidualPOIsGroupsAndRelatedPOIsNameOnPOIPanel" />
+	  	                    	<include name="verifyFilterFunctionalityForPOIs" />
+	  	                    	
+	                    </methods>
+	          </class>
+		 
+		 </classes>
+		 
+  </test> <!-- journeyverification -->
+</suite> <!-- Suite -->

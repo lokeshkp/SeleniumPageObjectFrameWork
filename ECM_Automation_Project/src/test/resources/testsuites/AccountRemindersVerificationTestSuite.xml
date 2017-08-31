@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AccountRemindersVerificationTestSuite">
+  
+  
+  <test name="AccountRemindersVerificationTest">
+		 <classes>
+		    <class name="com.ecm.tests.AccountRemindersVerificationTest">
+		                <methods>
+	  	                    	<include name="launchBrowserAndLoginToECM" /> 
+	  	                    	<include name="verifyListOfAccountRemindersOnPanel" />
+	  	                    	<include name="verifyFilterFunctionalityForAccountReminders" />
+	  	                    	<include name="verifyEditAndDeleteFunctionalityForAccountReminders" />
+	  	                    	
+	                    </methods>
+	          </class>
+		 
+		 </classes>
+  
+  </test> <!-- journeyverification -->
+</suite> <!-- Suite -->

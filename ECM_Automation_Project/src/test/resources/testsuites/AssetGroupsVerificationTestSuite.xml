@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AssetGroupsVerificationTestSuite">
+  
+  <test name="AssetGroupsVerificationTest">
+ 
+		 <classes>
+		    <class name="com.telematics.tests.AssetGroupsVerificationTest">
+		                <methods>
+	  	                    	<include name="launchBrowserAndLoginToTelematics" /> 
+	  	                    	<include name="verifyListOfAssetGroupsOnPanel" />
+	  	                    	<include name="verifyFilterFunctionalityForAssetGroups" />
+	  	                    	<include name="verifyEditAndDeleteFunctionalityForAssetGroups" />
+	  	                    	
+	                    </methods>
+	          </class>
+		 
+		 </classes>
+		 
+		 
+  
+  </test> <!-- journeyverification -->
+</suite> <!-- Suite -->

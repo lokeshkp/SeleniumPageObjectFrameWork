@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="JourneyPanelTest TestSuite">
+  <test name="JourneyPanelTest">
+		 <classes>
+		    <class name="com.telematics.tests.JourneyPanelTest">
+		                <methods>
+	  	                    	<include name="launchBrowserAndLoginToTelematics" /> 
+	  	                    	<!-- <include name="verifyJourneysViewWindowObjects" />
+	  	                    	<include name="verifyJourneyViewOptionFunctionality" />
+	  	                    	<include name="verifyFullDayViewOptionFunctionality" />  -->
+	  	                    	<include name="verifyJourneyPlaybackFunctionality" />
+	  	                    	
+	                    </methods>
+	          </class>
+		 </classes>
+  </test> 
+</suite> 

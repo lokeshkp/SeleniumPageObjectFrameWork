@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AssetFilterTestSuite">
+  
+  <test name="AssetFilterTest">
+		 <classes>
+		    <class name="com.telematics.tests.AssetsFilterTest">
+		                <methods>
+	  	                    	 <include name="launchBrowserAndLoginToTelematics" /> 
+	  	                    	<include name="verifyAssetPanelTabs" />
+	  	                    	<include name="verifyAssetFilterUsingAssetDriverIMEIValues" />
+	  	                    	<include name="verifyGroupFilterHavingSelectDeselectBtnAndItsWorkingFine" />
+	  	                    	<include name="verifyGroupFilterIsWorkingFineForIndividualSelectDeselect" />
+	  	                    	<include name="verifySortBtnDisplayingCorrectListOfOption" />  
+	  	                    	<include name="verifySortOperationIsWorkingForAvailableOption" /> 
+	  	                    	<include name="verifyPreferenceOptionDisplayingCorrectListOfOptionAndCheck" />
+	  	                    	<include name="verifyPreferencesOptions" />
+	  	                    	
+	                    </methods>
+	          </class>
+		 
+		 </classes>
+  
+  </test> <!-- journeyverification -->
+</suite> <!-- Suite -->

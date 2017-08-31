@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HomepageMenusAndSubmenusVerificationTestsuite">
+  
+  <test name="HomepageMenusAndSubmenusVerificationTest">
+ <classes>
+		    <class name="com.telematics.tests.HomepageMenusAndSubmenusVerificationTest">
+	<methods>
+		<include name="launchBrowserAndLoginToTelematics" />
+		<include name="VerifyHomepageMenus" />
+		<include name="Verifyingtelematicsschedulingoption" />
+		<include name="VerifyTelematicsMenuAndSubmenus" />
+		<include name="VerifyMapMenuAndSubmenus" />
+		<include name="VerifySchedulingMenuAndSubmenus" />
+
+	</methods>
+	          </class>
+		 
+		 </classes>
+		 
+  </test> <!-- homepage -->
+</suite> <!-- homepagesuite -->

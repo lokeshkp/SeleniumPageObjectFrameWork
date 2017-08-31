@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DriversVerificationTestSuite">
+  
+  <test name="DriversVerificationTest">
+   
+		 <classes>
+		    <class name="com.telematics.tests.DriversVerificationTest">
+		                <methods>
+	  	                    	<include name="launchBrowserAndLoginToTelematics" /> 
+	  	                    	<include name="verifyListOfDriversAndPhoneUnderDriverPanel" />
+	  	                    	<include name="verifyFilterFunctionalityForDrivers" />
+	  	                    	<include name="verifyEditDriverFunctionalityForDrivers" />
+	  	                    	
+	                    </methods>
+	          </class>
+		 
+		 </classes>
+		 
+  </test> <!-- journeyverification -->
+</suite> <!-- Suite -->

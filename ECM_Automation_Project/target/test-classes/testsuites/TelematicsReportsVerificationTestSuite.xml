@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TelematicsReportsVerificationTestSuite">
+
+  <test name="TelematicsReportsVerificationTest">
+		 <classes>
+		    <class name="com.telematics.reports.TelematicsReportsVerificationTest">
+		                <methods>
+	  	                    	<include name="launchBrowserAndLoginToTelematics" /> 
+	  	                    	<!-- <include name="verifyDriverPerformanceSummaryNonCANReport" />
+	  	                    	<include name="verifyDriverPerformanceSummaryByDateReport" />  -->
+	  	                    	<include name="verifyDriverPerformanceSummaryReport" />
+	  	                    	<!-- <include name="verifyListOfReports" /> -->
+	  	                    	
+	  	                    	
+	                    </methods>
+	          </class>
+		 
+		 </classes>
+		 
+  </test> <!-- TelematicsReportsVerificationTest -->
+</suite> <!-- TelematicsReportsVerificationTestSuite -->

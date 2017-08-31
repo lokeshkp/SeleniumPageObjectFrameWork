@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [JourneyPanelTest TestSuite]">
+  <test name="JourneyPanelTest(failed)">
+    <classes>
+      <class name="com.telematics.tests.JourneyPanelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="verifyJourneyPlaybackFunctionality" invocation-numbers="0"/>
+          <include name="Closebrowser"/>
+        </methods>
+      </class> <!-- com.telematics.tests.JourneyPanelTest -->
+    </classes>
+  </test> <!-- JourneyPanelTest(failed) -->
+</suite> <!-- Failed suite [JourneyPanelTest TestSuite] -->

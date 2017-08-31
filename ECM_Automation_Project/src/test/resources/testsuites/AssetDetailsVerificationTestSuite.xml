@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AssetDetailsVerificationTestSuite">
+ 
+ 
+  <test name="AssetDetailsVerificationTest">
+ 
+		 <classes>
+		    <class name="com.telematics.tests.AssetDetailsVerificationTest">
+		                <methods>
+	  	                    	<include name="launchBrowserAndLoginToTelematics" /> 
+	  	                    	<include name="verifyListOfAssetNameAndAssociatedDriversDisplayingUnderAssetPanelTab" /> 
+	  	                    	<include name="verifyAssetOptionButtonsSubOptions" />
+	  	                    	<include name="verifyMaintainAssetDetailsWindowDisplayingCorrectLabelsAndFields" />
+	  	                    	<include name="verifyMaintainAssetDetailsWindowDisplayingListboxHavingCorrectListValues" />
+	  	                    	<include name="verifyMaintainAssetDetailsWindowCancelButton" /> 
+	  	                    	<include name="verifyMaintainAssetDetailsWindowSaveButton" />
+	  	                    	<include name="verifyMaintainAssetDetailsSaveIsWorkingForMandatoryValues" /> 
+	  	                    	<include name="verifyAssetIconPickerFunctionality" />
+	  	                    	<include name="verifyAssetIconOnAssetsListAndAssetDialog" />
+	  	                    	<include name="verifyAdminTabValues" />
+	  	                    	 <include name="verifyVirtualAccountsTabValues" />
+	  	                    	
+	                    </methods>
+	          </class>
+		 
+		 </classes>
+  
+  </test> <!-- journeyverification -->
+</suite> <!-- Suite -->
