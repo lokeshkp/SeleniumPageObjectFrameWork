@@ -1,0 +1,31 @@
+//The following method used for reduce huge amount of time when using thred.sleep
+
+@Step("Wait for JS or JQX to load")
+    public boolean waitForJStoLoad() {
+
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        final JavascriptExecutor js = (JavascriptExecutor) driver;
+        // wait for jQuery to load
+        ExpectedCondition<Boolean> jQueryLoad = new ExpectedCondition<Boolean>() {
+          @Override
+          public Boolean apply(WebDriver driver) {
+            try {
+              return ((Long)js.executeScript("return jQuery.active") == 0);
+            }
+            catch (Exception e) {
+              return true;
+            }
+          }
+        };
+
+        // wait for Javascript to load
+        ExpectedCondition<Boolean> jsLoad = new ExpectedCondition<Boolean>() {
+          @Override
+          public Boolean apply(WebDriver driver) {
+            return js.executeScript("return document.readyState")
+                .toString().equals("complete");
+          }
+        };
+
+      return wait.until(jQueryLoad) && wait.until(jsLoad);
+    }
